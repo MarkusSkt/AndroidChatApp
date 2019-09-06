@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#696969"/>
+
+        <com.example.socketiochatapplication.CircularImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:id="@+id/toolbar_image"
+            android:visibility="invisible"
+            android:background="@drawable/round_button_transparent"
+            android:src="@android:drawable/ic_menu_myplaces"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/toolbar_info"
+            android:textSize="18sp"
+            android:textColor="#696969"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

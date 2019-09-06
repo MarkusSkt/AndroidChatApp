@@ -1,0 +1,20 @@
+{
+  "Version": "1.0",
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "eu-west-2:187ad20e-3112-43e1-9cc2-af3b4fb8b338",
+        "Region": "eu-west-2"
+      }
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "android-chat-image-storage",
+      "Region": "eu-west-2"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chat Application</string>
+    <string name="create">Create</string>
+    <string name="no_rooms">No rooms found</string>
+    <string name="colon_s">:&#160;</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="enter_nickname">Enter Nickname</string>
+    <string name="enter_room_name">Enter room name</string>
+    <string name="go_to_chat">Enter Lobby</string>
+
+    <string name="send_message">Send</string>
+    <string name="input_message">Input message</string>
+
+    <string name="room">Room</string>
+    <string name="room_creation">Create new chat room</string>
+    <string name="fetching_rooms">Fetching rooms</string>
+
+    <string name="created_by">Markus Skyttä</string>
+    <string name="version">V.0.1</string>
+    <string name="tech_stack">Studio, NodeJS, SocketIO, AWS</string>
+
+</resources>

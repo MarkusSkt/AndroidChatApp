@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomCreationFragment"
+    android:background="@drawable/cool_blues">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/room_creation"
+        android:id="@+id/room_creation_title"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="80sp"
+        android:textStyle="bold"
+        android:textSize="28sp"/>
+
+    <com.example.socketiochatapplication.CircularImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/image_room"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/room"
+        android:layout_below="@id/room_creation_title"
+        android:background="@drawable/round_button_transparent"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/room_name_edit"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#80FFFFFF"
+        android:hint="@string/enter_room_name"
+       android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:maxLength="14"
+        android:inputType="text"
+        android:backgroundTint="#80FFFFFF"
+        android:textCursorDrawable="@null"
+        android:textSize="24sp" />
+
+  <Button
+      android:layout_width="120sp"
+      android:layout_height="60sp"
+      android:id="@+id/create_room_button"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="40dp"
+      android:layout_alignParentBottom="true"
+      android:text="@string/create"/>
+
+</RelativeLayout>
